@@ -1,0 +1,23 @@
+#container {
+	width: 900px;
+	height: 600px;
+	border: solid 3px black;
+	margin: 30px auto;
+}
+
+.grid {
+	width: 30px;
+	height: 30px;
+	border: solid 2px black;
+	margin: 10px auto;
+}
+
+.gridButton {
+	text-align: center;
+}
+
+#buttonBox {
+	height: 30px;
+	width: 60px;
+	margin: 20px auto;
+}
