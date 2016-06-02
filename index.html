@@ -2,8 +2,7 @@
 <html>
 
 <head>
-
-	<link rel="stylesheet" type="text/css" href="reset.css">
+	<script src="jquery-2.2.4.min.js"></script>
 	<link rel="stylesheet" type="text/css" href="stylesheet.css">
 	
 
@@ -11,14 +10,19 @@
 </head>
 
 <body>
-<div id="container"></div>
 <div id="buttonBox">
+<h4>Input number of grid squares:</h4>
+
+<input type="text" name="Grid Size" id="gridSize">
 <button value="Generate Grid" class="gridButton" onclick="generate()">Generate Grid</button>
+<button value="Clear Grid" class="clearButton">Clear Grid</button>
 </div>
 
-</body>
 
-<script type="text/javascript" src="script.js"></script>
-<script type="text/javascript" src="jquery-2.2.4.min.js"></script>
+<div id="container"></div>
+
+</body>
+<script src="script.js"></script>
+
 
 </html>

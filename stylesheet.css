@@ -1,15 +1,17 @@
 #container {
-	width: 900px;
+	width: 600px;
 	height: 600px;
 	border: solid 3px black;
-	margin: 30px auto;
+	margin: 0 auto;
+	
 }
 
 .grid {
-	width: 30px;
-	height: 30px;
-	border: solid 2px black;
-	margin: 10px auto;
+	height: 20px;
+	width: 20px;
+	border: solid 1px black;
+	display: block;
+	float: left;
 }
 
 .gridButton {
@@ -17,7 +19,12 @@
 }
 
 #buttonBox {
-	height: 30px;
-	width: 60px;
+	height: 100px;
+	width: 500px;
 	margin: 20px auto;
+	display: block;
+}
+
+.black {
+	background-color: black;
 }
