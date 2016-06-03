@@ -1,30 +1,40 @@
 #container {
-	width: 600px;
-	height: 600px;
-	border: solid 3px black;
+	width: 960px;
 	margin: 0 auto;
-	
 }
 
-.grid {
-	height: 20px;
-	width: 20px;
-	border: solid 1px black;
-	display: block;
-	float: left;
+.square {
+	outline: 1px solid black;
+	float:left;
+	background-color: #588C73;
 }
+
 
 .gridButton {
 	text-align: center;
 }
 
-#buttonBox {
-	height: 100px;
-	width: 500px;
-	margin: 20px auto;
+h4 {
+	text-align: center;
+	font-family: arial;
+}
+
+h1 {
+	text-align: center;
+	font-family: arial;
+}
+
+.buttons {
+	padding: 5px;
+}
+
+button {
+	width: 100px;
 	display: block;
+	margin: 0 auto;
+	padding: 5px;
 }
 
 .black {
-	background-color: black;
+	background-color: white;
 }
