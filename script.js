@@ -1,3 +1,9 @@
+$(document).on('click','.clearButton', function() {
+	$('#container').empty();
+	generate();
+});
+
+
 function generate() {
 var squares = prompt("Number of squares? ( 0 < X < 40 )")
 var width = 960;
@@ -52,9 +58,9 @@ function randomColour() {
 };
 
 function randomizer() {
-  var r = parseInt(Math.random() * 255);
-  var g = parseInt(Math.random() * 255);
-  var b = parseInt(Math.random() * 255);
+  var r = parseInt(Math.random() * 256);
+  var g = parseInt(Math.random() * 256);
+  var b = parseInt(Math.random() * 256);
   var colourPicker = "rgb" + "(" + r + "," + g + "," + b + ")";
   return colourPicker
 };
