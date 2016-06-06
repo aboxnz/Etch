@@ -1,6 +1,7 @@
 body {
 	margin: 0;
 	font-family: arial;
+	background-color: rgb(233,224,214);
 }
 
 #container {
@@ -10,51 +11,47 @@ body {
 
 .square {
 	outline: 1px solid black;
-	float:left;
-	background-color: rgb(88,140,115);
-}
-
-.buttonOptions{
-	clear: both;
-	display: block;
-}
-
-.gridButton {
 	float: left;
-	clear: left;
-}
-
-.clearButton {
-	float: left;
+	background-color: rgb(66,152,181);
 }
 
 h4 {
 	text-align: center;
+	color: rgb(53,68,88);
 }
 
 h1 {
 	text-align: center;
 	margin: 20px 0 0 0;
-}
-
-.options {
-	text-align: center;
-	clear: both;
-}
-
-.buttons {
-	margin: 0 auto;
-	width: 700px;
-	padding-bottom: 20px;
-}
-
-button {
-	width: 200px;
-	display: block;
-	margin: 0 auto;
-	padding: 5px;
+	color: rgb(53,68,88);
 }
 
 .change {
-	background-color: white;
+	background-color: rgb(135,114,96);
+}
+
+#menu {
+	height: auto;
+	width: 600px;
+	margin: 0 auto;
+}
+
+li {
+	background-color: rgb(58,154,217);
+	color: rgb(233,224,214);
+	padding: 5px;
+	border-radius: 5px;
+	text-decoration: none;
+	list-style-type: none;
+	display: inline-block;
+	position: relative;
+	width: 75px;
+	text-align: center;
+	margin: 5px 10px;
+}
+
+li:hover {
+	cursor: pointer;
+	left: 1px;
+	top: 1px;
 }
